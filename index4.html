@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center><strong>TELANGANA  STATE  ROAD  TRANSPORT  CORPORATION</strong></center></h1>
+    <h2><center><strong>GENERAL BUS PASS APPLICATION</strong></center></h2>
+    <form action="./response.html" method="get" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Applicant Details</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" >
+            &emsp;&emsp;&emsp;&emsp;
+            <label for="Father's/Guardian's Name">Father's/Guardian's Name:</label>
+            <input type="text" id="Father's/Guardian's Name">
+            <br>
+            <label for="Date of birth">Date of birth:</label>
+            <input type="text" id="Date of birth">
+            &emsp;&nbsp
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+            <br>
+            <label for="Age As On">Age As On:</label>
+            <input type="text" name="Age As On" id="Age As On">
+            &emsp;&emsp;
+            <label for="Aadhar No">Aadhar No:</label>
+            <input type="text" name="Aadhar No" id="Aadhar No"> 
+            <br>
+            <label for="Whatsapp No">Whatsapp No:</label>
+            <input type="text" name="Whatsapp No" id="Whatsapp No">
+            &emsp;
+            <label for="E-mail id">E-mail id:</label>
+            <input type="text" name="E-mail id" id="E-mail id">
+            <br>
+            <label for="Photo">Photo:</label>
+            <input type="file" name="file" id="Photo" accept=".jpg">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Residential Address Details</legend>
+            <label for="Applicant's Address">Applicant's Address:</label>
+            <textarea name="Applicant's Address" id="Applicant's Address" rows="3" cols="9"></textarea>
+            &emsp;&emsp;&emsp;
+            <label for="District">District:</label>
+            <select name="District" id="District">
+               <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <br>
+            <label for="Mandal">Mandal:</label>
+            <select name="Mandal" id="Mandal">
+              <option value="Hyderabad">Hyderabad</option>
+            </select>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <label for="Village">Village:</label>
+            <select name="Village" id="Village">
+            <option value="Hyderabad">Hyderabad</option>  
+            </select>
+            <br>
+            <label for="Pincode">Pincode:</label>
+            <input type="text" name="Pincode" id="Pincode">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Pass Type Details</legend>
+            <label for="City">City:</label>
+            <select name="City" id="City">
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <br>
+            <label for="Pass Type">Pass Type:</label>
+            <select name="Pass Type" id="Pass Type">
+                <option value="---select---">---select---</option>
+                <option value="Student">Student</option>
+                <option value="General">General</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Mode Of Payment & Pass Collection</legend>
+            <label for="Payment Mode">Payment Mode:</label>
+            <select name="Payment Mode" id="Payment Mode">
+                <option value="Select Payment Mode">Select Payment Mode</option>
+                <option value="Payment At Counter">Payment At Counter</option>
+            </select>
+            <br>
+            <label for="Pass Delivery Mode">Pass Delivery Mode:</label>
+            <select name="Pass Delivery Mode" id="Pass Delivery Mode">
+                <option value="Select Pass Delivery Mode">Select Pass Delivery Mode</option>
+                <option value="At Counter">At Counter</option>
+            </select>
+            <br>
+            <label for="Center at which you want to collect pass">Center at which you want to collect pass:</label>
+            <select name="Center at which you want to collect pass" id="Center at which you want to collect pass">
+                <option value="---select center name---">---select center name---</option>
+                <option value="RTC-Dilsukhnagar-Hyd">RTC-Dilsukhnagar-Hyd</option>
+                <option value="RTC-Abids-Hyd">RTC-Abids-Hyd</option>
+                <option value="RTC-Lbnagar-Hyd">RTC-Lbnagar-Hyd</option>
+            </select>
+        </fieldset>
+        <center><input type="submit" name="submit"></center>
+    </form>
+</body>
+</html>
